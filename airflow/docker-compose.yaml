@@ -7,7 +7,7 @@ services:
       - "9090:9090"
     environment:
       - AIRFLOW__CORE__EXECUTOR=LocalExecutor
-      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=sqlite:~/Platform_with_git/airflow/airflow.db
+      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=sqlite:////usr/local/airflow/airflow.db
       - AIRFLOW__WEBSERVER__RBAC=true
     volumes:
       - ./dags:/usr/local/airflow/dags
