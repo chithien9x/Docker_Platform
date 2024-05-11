@@ -4,7 +4,7 @@ services:
     image: apache/airflow:latest
     restart: always
     ports:
-      - "8080:8080"
+      - "9090:9090"
     environment:
       - AIRFLOW__CORE__EXECUTOR=LocalExecutor
       - AIRFLOW__CORE__SQL_ALCHEMY_CONN=sqlite:////usr/local/airflow/airflow.db
