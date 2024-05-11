@@ -1,3 +1,3 @@
 from datetime import datetime
 current_datetime = datetime.now()
-print("Current date and time:", current_datetime, 'And Print Hello, World! Print somthing', 'thử nghiệm 2')
+print("Current date and time:", current_datetime, 'And Print Hello, World! Print somthing', 'thử nghiệm 3 merge và ghi theo thứ tự')
